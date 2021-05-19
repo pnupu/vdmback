@@ -1,4 +1,5 @@
 const logger = require('./logger')
+// eslint-disable-next-line no-unused-vars
 const { req, res } = require('../app')
 
 const requestLogger = (req, res, next) => {
